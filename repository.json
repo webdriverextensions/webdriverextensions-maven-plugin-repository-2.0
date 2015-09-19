@@ -3,6 +3,12 @@
         {
             "name": "chromedriver",
             "platform": "linux",
+            "bit": "32",
+            "version": "2.19.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.19/chromedriver_linux32.zip"
+        }, {
+            "name": "chromedriver",
+            "platform": "linux",
             "bit": "64",
             "version": "2.19.0",
             "url": "http://chromedriver.storage.googleapis.com/2.19/chromedriver_linux64.zip"
@@ -18,6 +24,12 @@
             "bit": "32",
             "version": "2.19.0",
             "url": "http://chromedriver.storage.googleapis.com/2.19/chromedriver_win32.zip"
+        }, {
+            "name": "chromedriver",
+            "platform": "linux",
+            "bit": "32",
+            "version": "2.18.0",
+            "url": "http://chromedriver.storage.googleapis.com/2.18/chromedriver_linux32.zip"
         }, {
             "name": "chromedriver",
             "platform": "linux",
@@ -330,6 +342,14 @@
             "bit": "64",
             "version": "2.41.0",
             "url": "http://selenium-release.storage.googleapis.com/2.41/IEDriverServer_x64_2.41.0.zip"
+        },
+        {
+            "name": "phantomjs",
+            "platform": "mac",
+            "bit": "64",
+            "version": "1.9.7",
+            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-macosx.zip",
+            "fileMatchInside": ".*/bin/phantomjs$"
         },
         {
             "name": "phantomjs",
