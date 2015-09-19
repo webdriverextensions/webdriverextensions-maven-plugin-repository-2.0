@@ -336,7 +336,7 @@
             "platform": "linux",
             "bit": "64",
             "version": "1.9.7",
-            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2"
+            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2",
             "fileMatchInside": ".*/bin/phantomjs$"
         },
         {
@@ -344,7 +344,7 @@
             "platform": "linux",
             "bit": "32",
             "version": "1.9.7",
-            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-i686.tar.bz2"
+            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-i686.tar.bz2",
             "fileMatchInside": ".*/bin/phantomjs$"
         },
         {
@@ -352,7 +352,8 @@
             "platform": "windows",
             "bit": "64",
             "version": "1.9.7",
-            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-windows.zip"
+            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-windows.zip",
+            "fileMatchInside": ".*/phantomjs.exe$"
         }
     ]
 }
