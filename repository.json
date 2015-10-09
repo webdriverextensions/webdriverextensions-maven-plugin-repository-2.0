@@ -422,6 +422,18 @@
             "version": "2.0.0",
             "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.0.0-windows.zip",
             "fileMatchInside": ".*phantomjs.exe$"
+        }, {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "32",
+            "version": "2.48.0",
+            "url": "http://selenium-release.storage.googleapis.com/2.48/IEDriverServer_Win32_2.48.0.zip"
+        }, {
+            "name": "internetexplorerdriver",
+            "platform": "windows",
+            "bit": "64",
+            "version": "2.48.0",
+            "url": "http://selenium-release.storage.googleapis.com/2.48/IEDriverServer_x64_2.48.0.zip"
         }
     ]
 }
