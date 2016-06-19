@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/webdriverextensions/webdriverextensions-maven-plugin-repository-2.0.png)](https://travis-ci.org/webdriverextensions/webdriverextensions-maven-plugin-repository-2.0)
+
 WebDriver Extensions Maven Plugin Repository 2.0
 ===================
 This is the home of the drivers repository used by the [WebDriver Extensions Maven Plugin](https://github.com/webdriverextensions/webdriverextensions-maven-plugin) from version 2.0 and later.
