@@ -5,7 +5,7 @@
             "platform": "linux",
             "bit": "32",
             "version": "2.22.0",
-            "url": "http://chromedriver.storage.googleapis.com/2.22/chromedriver_linux32.zip"
+            "url": "http://chromedriver.storage.googleapis.com/2.23/chromedriver_linux32.zip"
         },
         {
             "name": "chromedriver",
