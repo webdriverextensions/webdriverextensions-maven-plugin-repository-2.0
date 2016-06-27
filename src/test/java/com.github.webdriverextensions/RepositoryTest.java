@@ -47,15 +47,10 @@ public class RepositoryTest {
         URI uri = URI.create(url);
         String fileName = Paths.get(uri.getPath()).getFileName().toString();
         boolean isIEDriver = "internetexplorerdriver".equals(name);
-        boolean isMarionetteDriver = "marionette".equals(name);
         if (isIEDriver) {
             assertThat(fileName)
                     .describedAs("url '" + url + "' should contain name '" + name + "'")
                     .matches("IEDriverServer_.*");
-        } else if(isMarionetteDriver) {
-            assertThat(fileName)
-                    .describedAs("url '" + url + "' should contain name '" + name + "'")
-                    .matches("geckodriver" + "[_-].*");
         } else {
             assertThat(fileName)
                     .describedAs("url '" + url + "' should contain name '" + name + "'")
@@ -73,7 +68,7 @@ public class RepositoryTest {
             // need to handle phantomjs different from others
             // it is hosted on s3, no HEAD allowed
             assertThat(response.code()).describedAs(description).isEqualTo(403);
-        } else if("marionette".equals(name)) {
+        } else if("geckodriver".equals(name)) {
             // need to handle marionette different from others
             // it is hosted on s3, no HEAD allowed
             assertThat(response.code()).describedAs(description).isEqualTo(403);
