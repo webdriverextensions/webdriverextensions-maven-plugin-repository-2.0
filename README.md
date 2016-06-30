@@ -1,12 +1,8 @@
-[![Build Status](https://travis-ci.org/webdriverextensions/webdriverextensions-maven-plugin-repository-2.0.png)](https://travis-ci.org/webdriverextensions/webdriverextensions-maven-plugin-repository-2.0)
+DEPRECATED WebDriver Extensions Maven Plugin Repository 2.0
 
-WebDriver Extensions Maven Plugin Repository 2.0
-===================
-This is the home of the drivers repository used by the [WebDriver Extensions Maven Plugin](https://github.com/webdriverextensions/webdriverextensions-maven-plugin) from version 2.0 and later.
+WARNING THIS REPOSITORY IS NO LONGER UPDATED AND IS ONLY USED BY VERSION 2.X.X OF THE  [webdriverextensions-maven-plugin](https://github.com/webdriverextensions/webdriverextensions-maven-plugin)
 
-## Want to add a version to the repo?
-Simply just fork this repo, add the driver info in the repository.json file and
-do a PR.
+CURRENT REPO FOR VERSION 1.X.X and 3.X.X AND FUTURE VERSIONS CAN BE FOUND [HERE](https://github.com/webdriverextensions/webdriverextensions-maven-plugin-repository)
 
 ## License
 
@@ -21,4 +17,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
