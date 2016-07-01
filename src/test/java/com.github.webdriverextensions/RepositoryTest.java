@@ -58,14 +58,18 @@ public class RepositoryTest {
         }
 
         assertThat(fileName)
-                .describedAs("url '" + url + "' should contain address extension 'zip','tar.bz2'")
-                .matches(".*(zip|tar\\.bz2)");
+                .describedAs("url '" + url + "' should contain address extension 'zip', 'gz', 'tar.bz2'")
+                .matches(".*(zip|gz|tar\\.bz2)");
 
         String description = "url '" + url + "' is invalid";
         Request request = new Request.Builder().head().url(url).build();
         Response response = new OkHttpClient().newCall(request).execute();
         if ("phantomjs".equals(name)) {
             // need to handle phantomjs different from others
+            // it is hosted on s3, no HEAD allowed
+            assertThat(response.code()).describedAs(description).isEqualTo(403);
+        } else if("geckodriver".equals(name)) {
+            // need to handle marionette different from others
             // it is hosted on s3, no HEAD allowed
             assertThat(response.code()).describedAs(description).isEqualTo(403);
         } else {
